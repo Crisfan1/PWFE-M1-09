@@ -1,0 +1,34 @@
+/*aca empiezan las reglas de estilo css*/
+body {
+font-family:Arial;
+color: #3c4c58;
+font-size: 20px;
+line-height: 1.5;
+text-align: justify;
+hyphens: auto;
+width:75%;
+margin: auto;
+background-color: #efdb42;	/*
+margin-left: 10%;
+margin-right: : 10%;
+margin-top: 0;
+margin-bottom: 0;
+*/
+
+}
+h1{
+	font-size: 28px;
+	text-align: center;	
+}
+
+a{
+	text-decoration: none;
+	color:#efdb42;
+	background-color:#3c4c58; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+a:hover{
+	background-color: #FFFFFF;
+	color: #3C4C58;
+}
