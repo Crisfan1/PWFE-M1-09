@@ -21,11 +21,17 @@ selector {
 	header{
 		background-color:#333333;
 		padding:15px;
+		overflow: hidden;
 
 			}
 	header h1{
 		color:#ffffff;
 		margin:0;
+		float: left;
+		background-image: url("../img/logo.png");
+		background-repeat: no-repeat;
+
+		padding-left: 75px;
 	}
 	header a {
 		color:#ffffff;
@@ -36,6 +42,10 @@ selector {
 	header a:hover{
 		background-color: #ffffff;
 		color:#333333;
+	}
+	nav{
+		float: right;
+		
 	}
 	nav ul {
 		padding:0;
