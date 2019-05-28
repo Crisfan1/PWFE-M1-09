@@ -1,34 +1,48 @@
-/*aca empiezan las reglas de estilo css*/
-body {
-font-family:Arial;
-color: #3c4c58;
-font-size: 20px;
-line-height: 1.5;
-text-align: justify;
-hyphens: auto;
-width:75%;
-margin: auto;
-background-color: #efdb42;	/*
-margin-left: 10%;
-margin-right: : 10%;
-margin-top: 0;
-margin-bottom: 0;
+/*aca empiezan las reglas de estilo css
+
+selector {
+	propiedad : valor;
+
+	propiedad:valor;
+
+}
+
+
+
 */
 
-}
-h1{
-	font-size: 28px;
-	text-align: center;	
-}
+	body {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	color:#333333;
+	margin:0;
 
-a{
-	text-decoration: none;
-	color:#efdb42;
-	background-color:#3c4c58; 
-	padding-left: 5px;
-	padding-right: 5px;
-}
-a:hover{
-	background-color: #FFFFFF;
-	color: #3C4C58;
-}
+			}	
+	header{
+		background-color:#333333;
+		padding:15px;
+
+			}
+	header h1{
+		color:#ffffff;
+		margin:0;
+	}
+	header a {
+		color:#ffffff;
+		text-decoration:none;
+		padding: 5px;
+		display:block;
+	}
+	header a:hover{
+		background-color: #ffffff;
+		color:#333333;
+	}
+	nav ul {
+		padding:0;
+		margin:0;
+		list-style: none;
+	}
+	nav ul li {
+		
+		display: inline-block;
+	}
