@@ -182,8 +182,8 @@ display: none;
 @media screen and (max-width: 576px) {/*<-- smartphone*/
 /*inicio media query*/
 
-	body
-	{background-color: red}
+	
+	
 
 	nav {
 		display: none;
@@ -240,9 +240,6 @@ flex-direction: column;
 @media screen and (min-width: 577px) and  (max-width: 768px){/*<--tablet--*/
 
 
-body
-	{background-color :green
-	}
 
 
 
