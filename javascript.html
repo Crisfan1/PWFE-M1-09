@@ -1,0 +1,36 @@
+<script >
+debugger
+/*tipos de datos primitivos
+
+let nombre = "caps"  //<-- string
+let stock = 120     //<-- int
+let precio = 65.50  //<-- float
+let disponible = true  //<-- bool
+*/
+let nombre = prompt("ingrese nombre")
+let stock = prompt ( "ingrese stock")
+let precio = prompt("ingrese precio")  
+let disponible = confirm("esta disponible?")
+	/*origen de los dato:
+	-Determinado: estan definidos por el programador (harcodeado)
+	-Indeterminado: pueden ser definidos por ..
+		*operacion matematica/logica
+		*interaccion del ususario	
+	*/
+	let preciofinal = precio* 1.21
+
+
+	if( nombre =="" ){ //<-- true/falso
+		alert("ERROR: el nombre mo puede quedar vacio..")
+	}
+
+
+
+
+	//window.alert( saludo )
+
+	//console.log( saludo )
+
+	//document.write( "hay "+ stock+" unidades de  "+ nombre )
+	document.write(`<p>hay ${stock} unidades de <strong>${nombre}</strong> y cuestan ARS ${precio} c/u</p>`)
+</script>
