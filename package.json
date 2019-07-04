@@ -4,7 +4,7 @@
   "description": "web server basico para AJAXy otros en Node.JS",
   "main": "app.js",
   "scripts": {
-    "start" :"node apps.js",
+    "start" :"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
